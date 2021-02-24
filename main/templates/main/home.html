@@ -1,0 +1,57 @@
+{% extends 'main/master.html' %}
+	{% load static %}
+	{% block home %}
+			<!-- sarvice-area-start -->
+			
+
+			{% block slider %}
+
+			{% include 'main/slider.html' %}
+
+			{% endblock slider %}
+
+
+			{% block service %}
+
+			{% include 'main/service.html' %}
+
+			{% endblock service %}
+			
+        	
+			<!-- service-area-end -->
+			<!-- benefits-area-start -->
+			{% block benefits %}
+
+			{% include 'main/benefits.html' %}
+
+			{% endblock benefits %}
+			<!-- benefits-area-end -->
+			<!-- special-menu-area-start -->
+			{% block special-menu %}
+
+			{% include 'main/special-menu.html' %}
+
+			{% endblock special-menu %}
+			<!-- special-menu-area-end -->
+			<!-- gallery-area-start -->
+			{% block gallery %}
+
+			{% include 'main/gallery.html' %}
+
+			{% endblock gallery %}
+			<!-- gallery-area-end -->
+			<!-- news-area-start -->
+			{% block news %}
+
+			{% include 'main/news.html' %}
+
+			{% endblock news %}
+			<!-- news-area-end -->
+			<!-- brand-area-start -->
+			{% block brand %}
+
+			{% include 'main/brand.html' %}
+
+			{% endblock brand %}
+			<!-- brand-area-end -->
+		{% endblock home %}

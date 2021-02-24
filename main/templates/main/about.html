@@ -1,0 +1,52 @@
+
+{% extends 'main/master.html' %}
+
+	{% load static %}
+
+
+{% block home %}
+				
+		<!-- breadcrumb-area-start -->
+		<div class="breadcrumb-area pt-45 pb-45">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						<div class="breadcrumb-text text-center">
+							<h1>Lyrics</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- breadcrumb-area-end -->
+		<!-- benefits-area-start -->
+		{% block benefits %}
+
+		{% include 'main/benefits.html' %}
+
+		{% endblock benefits %}
+		<!-- benefits-area-end -->
+		<!-- counter-area-start -->
+		{% block counter-area %}
+
+		{% include 'main/counter-area.html' %}
+
+		{% endblock counter-area %}
+		<!-- counter-area-end -->
+		<!-- our-staffs-area-start -->
+		{% block our-staffs %}
+
+		{% include 'main/our-staffs.html' %}
+
+		{% endblock our-staffs %}
+		<!-- our-staffs-area-end -->
+		<!-- service-area-start -->
+		<!-- {% block service %}
+
+		{% include 'main/service.html' %}
+
+		{% endblock service %} -->
+		<!-- service-area-end -->
+		
+
+{% endblock home %}
